@@ -1,7 +1,7 @@
 # TreasurePleasure
 
 **MAIN BRANCH** 
-bj
+
 
 **Hra – Hledání pokladu**
 
