@@ -3,7 +3,7 @@
 
 **Hra – Hledání pokladu**
 
-> *Pracujete na localhostu, veškeré soubory s kódy i obrázky, i sql soubor s příkazy (pokud využíváte) uložte do jednoho adresáře.*
+> *Pracujete na localhostu, veškeré soubory s kódy i obrázky, i sql soubor s příkazy (pokud využíváte) uložte do jednoho adresáře.* AHOJ
 
 
 # Popis hry
