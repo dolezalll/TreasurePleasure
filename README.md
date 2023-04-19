@@ -188,10 +188,8 @@ nalezení pokladu
 
 - [ ] Ukládat počet tahů do statistik uživatele, pokud je přihlášen
 
-- [ ] Zobrazit všechny velikosti, které hráč hrál s počtem nalezených
+- [ ] Zobrazit všechny velikosti, které hráč hrál s počtem nalezených pokladů
 
-pokladů
+- [ ] Zobrazit nejlepší, průměrný a nejhorší počet tahů pro každou velikost v statistikách uživatele
 
-- [ ] Zobrazit nejlepší, průměrný a nejhorší počet tahů pro každou
-
-velikost v statistikách uživatele
+- [ ] UI PANEL PRO HRU (to-do pro ui si dopiš sám)
