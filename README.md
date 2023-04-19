@@ -96,52 +96,6 @@ tahů.
   
   
 
-# TO-DO LIST
-
-  
-
-- [ ] Zkontrolovat, zda jsou všechna pole vyplněna při registraci
-
-- [ ] Zkontrolovat, zda jsou hesla a email unikátní při registraci
-
-- [ ] Validovat email na klientovi před odesláním na server
-
-- [ ] Přihlášení pomocí emailu a hesla
-
-- [ ] Přesměrování na hlavní stránku po přihlášení
-
-- [ ] Možnost hrát hru i bez přihlášení, ale bez ukládání statistik
-
-- [ ] Zvolit velikost hrací plochy při startu hry
-
-- [ ] Generovat hrací plochu po potvrzení velikosti
-
-- [ ] Generovat poklad na novém místě
-
-- [ ] Označit místo, které uživatel již navštívil a napovědět mu směr
-
-pro nalezení pokladu
-
-- [ ] Zobrazit nápovědu v podobě jednoho ze světových směrů
-
-- [ ] Zobrazit obrázek s pokladem a možnost spustit novou hru po
-
-nalezení pokladu
-
-- [ ] Počítat počet tahů během hry
-
-- [ ] Ukládat počet tahů do statistik uživatele, pokud je přihlášen
-
-- [ ] Zobrazit všechny velikosti, které hráč hrál s počtem nalezených
-
-pokladů
-
-- [ ] Zobrazit nejlepší, průměrný a nejhorší počet tahů pro každou
-
-velikost v statistikách uživatele
-
-  
-
 # ADAM TO-DO
 
   
