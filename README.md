@@ -147,3 +147,5 @@ nalezení pokladu
 - [ ] Zobrazit nejlepší, průměrný a nejhorší počet tahů pro každou velikost v statistikách uživatele
 
 - [ ] UI PANEL PRO HRU (to-do pro ui si dopiš sám)
+
+- [ ] ANDRE WATE GRAFIKA
