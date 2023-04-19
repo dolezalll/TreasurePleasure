@@ -128,15 +128,11 @@ tahů.
 
 - [ ] Generovat poklad na novém místě
 
-- [ ] Označit místo, které uživatel již navštívil a napovědět mu směr
-
-pro nalezení pokladu
+- [ ] Označit místo, které uživatel již navštívil a napovědět mu směr pro nalezení pokladu
 
 - [ ] Zobrazit nápovědu v podobě jednoho ze světových směrů
 
-- [ ] Zobrazit obrázek s pokladem a možnost spustit novou hru po
-
-nalezení pokladu
+- [ ] Zobrazit obrázek s pokladem a možnost spustit novou hru po nalezení pokladu
 
 - [ ] Počítat počet tahů během hry
 
