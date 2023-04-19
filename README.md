@@ -73,3 +73,31 @@ tahů.
        pokladů
  - [ ] Zobrazit nejlepší, průměrný a nejhorší počet tahů pro každou
        velikost v statistikách uživatele
+
+       # ADAM TO-DO
+
+ - [x] Zkontrolovat, zda jsou všechna pole vyplněna při registraci
+ - [x] Zkontrolovat, zda jsou hesla a email unikátní při registraci
+ - [x] Validovat email na klientovi před odesláním na server
+ - [x] Přihlášení pomocí emailu a hesla
+ - [x] Přesměrování na hlavní stránku po přihlášení
+ - [x] Zvolit velikost hrací plochy při startu hry
+ - [x] Generovat hrací plochu po potvrzení velikosti
+- [x] Database worker (include database.php)
+- [x] CSS na login /register a generovani hry.
+
+# DAVID TO-DO
+
+- [ ] Možnost hrát hru i bez přihlášení, ale bez ukládání statistik
+ - [ ] Generovat poklad na novém místě
+ - [ ] Označit místo, které uživatel již navštívil a napovědět mu směr
+       pro  nalezení pokladu
+ - [ ] Zobrazit nápovědu v podobě jednoho ze světových směrů
+ - [ ] Zobrazit obrázek s pokladem a možnost spustit novou hru po
+       nalezení pokladu
+ - [ ] Počítat počet tahů během hry
+ - [ ] Ukládat počet tahů do statistik uživatele, pokud je přihlášen
+ - [ ] Zobrazit všechny velikosti, které hráč hrál s počtem nalezených
+       pokladů
+ - [ ] Zobrazit nejlepší, průměrný a nejhorší počet tahů pro každou
+       velikost v statistikách uživatele
