@@ -193,7 +193,7 @@ patička. Je vyžadována grafická úprava webu (máte k dispozici Inkscape).
 
   
 
-- [ ] Generovat poklad na novém místě
+- [X] Generovat poklad na novém místě
 
   
 
