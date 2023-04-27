@@ -25,7 +25,7 @@ form {
     width: 150px;
     height: 40px;
     font-size: 16px;
-    background-color: #007bff;
+    background-color: #0cfa1c;
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -33,7 +33,7 @@ form {
   }
   
   input[type="submit"]:hover {
-    background-color: #0062cc;
+    background-color: #17f108;
   }
   
   .error {

@@ -1,4 +1,5 @@
 <?php 
+session_start();
 include 'databaze.php';
 
 // Zpracování formuláře
@@ -17,7 +18,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if ($result->num_rows > 0) {
       echo "Přihlášení proběhlo úspěšně.";
       // přesměrování na hlavní stránku po úspěšném přihlášení
-      header("Location: game.html");
+      $_SESSION["userLoged"] = true;
+      header("Location: gamemenu.php");
       exit();
     } else {
       echo "Nesprávné přihlašovací údaje.";

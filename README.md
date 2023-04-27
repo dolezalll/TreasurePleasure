@@ -189,7 +189,7 @@ patička. Je vyžadována grafická úprava webu (máte k dispozici Inkscape).
 
   
 
-- [ ] Možnost hrát hru i bez přihlášení, ale bez ukládání statistik
+- [X] Možnost hrát hru i bez přihlášení, ale bez ukládání statistik
 
   
 
@@ -197,19 +197,19 @@ patička. Je vyžadována grafická úprava webu (máte k dispozici Inkscape).
 
   
 
-- [ ] Označit místo, které uživatel již navštívil a napovědět mu směr pro nalezení pokladu
+- [X] Označit místo, které uživatel již navštívil a napovědět mu směr pro nalezení pokladu
 
   
 
-- [ ] Zobrazit nápovědu v podobě jednoho ze světových směrů
+- [X] Zobrazit nápovědu v podobě jednoho ze světových směrů
 
   
 
-- [ ] Zobrazit obrázek s pokladem a možnost spustit novou hru po nalezení pokladu
+- [X] Zobrazit obrázek s pokladem a možnost spustit novou hru po nalezení pokladu
 
   
 
-- [ ] Počítat počet tahů během hry
+- [X] Počítat počet tahů během hry
 
   
 
@@ -225,8 +225,8 @@ patička. Je vyžadována grafická úprava webu (máte k dispozici Inkscape).
 
   
 
-- [ ] UI PANEL PRO HRU (to-do pro ui si dopiš sám)
+- [X] UI PANEL PRO HRU (to-do pro ui si dopiš sám)
 
   
 
-- [ ] ANDRE WATE GRAFIKA
+- [X] ANDRE WATE GRAFIKA
