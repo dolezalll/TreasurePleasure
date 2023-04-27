@@ -22,7 +22,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
       $sql = "INSERT INTO users (email, password) VALUES ('$email', '$password')";
       if ($conn->query($sql) === TRUE) {
         echo "Registrace proběhla úspěšně.";
-        header("Location: gamemenu.php");
+        header("Location: login.html");
         exit();
       } else {
         echo "Chyba při registraci: " . $conn->error;

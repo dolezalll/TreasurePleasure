@@ -1,9 +1,12 @@
 <?php session_start(); 
-$moveCount = 0;
 $width = $_SESSION["width"];
 $height = $_SESSION["height"];
 $poklad = rand(0, ($width * $height) - 1);
  ?> 
+
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -16,6 +19,7 @@ $poklad = rand(0, ($width * $height) - 1);
  integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="
  crossorigin="anonymous">
 </script>
+
 <style>
   .Treasure {
   background-image: url("https://www.emp-shop.cz/dw/image/v2/BBQV_PRD/on/demandware.static/-/Sites-master-emp/default/dw51e8ab4f/images/4/8/2/4/482401a.jpg?sfrm=png");
@@ -61,6 +65,7 @@ $poklad = rand(0, ($width * $height) - 1);
 // Create a two-dimensional array of buttons
 include "navbar.php";
 include 'databaze.php';
+
 echo '<H1 id="movecounter">number of moves</H1>';
 $buttons = array();
 for ($y = 0; $y < $height; $y++) {
@@ -137,41 +142,49 @@ echo '</table>';
 <a href="gamemenu.php">
      <input type="submit"  value="Play again" id="my-button" style="display: none;"/>
      </a> 
-<script>
-  var moves = 0;
-$(".arrow").one("click", function() {
-  var id = $(this).attr("id");
-  moves++;
-  if(id == "X"){
-  console.log("igga");
-  $("#" + id).removeClass("arrow");
-  $("#" + id).addClass("Treasure");
-  var score = moves; // Example JavaScript variable
-    $.ajax({
-      url: "game.php", // Current page URL
-      type: "POST",
-      data: { score: score }, // Send score variable to PHP
-      success: function(response) {
-        console.log(response); // Handle PHP response here
-      }
-    })
-    <?php
-// Handle AJAX request here
-if (isset($_POST['score'])) {
-  $score = $_POST['score'];
-  // Do something with score variable
-  echo "<h1>gggg</h1>";
-}
-else{
-  echo "<h1>nigggg</h1>";
-}
-?>
-  $("#my-button").css("display", "block");
-}
-else{
-  $(this).html(id);
-}
-   $("#movecounter").html(moves);})
+
+
+
+
+
+     <script>
+      var gameFinished = false;
+    var moves = 0;
+
+
+
+   
+    $(".arrow").one("click", function() {
+        var id = $(this).attr("id");
+       
+      
+        if(id == "X"){
+          $("#"+id).removeClass("arrow");
+        $("#"+id).addClass("Treasure");
+            $("#my-button").css("display", "block");
+            
+             // Send AJAX request to pass 'moves' value to PHP
+        $.ajax({
+            type: "POST",
+            url: "gamefinish.php",
+            data: { moves: moves },
+            success: function(data) {
+                console.log(data); // Do something with the response from PHP
+            }
+        });
+
+
+
+         gameFinished = true;
+        } else {
+          if(gameFinished == false){
+            $(this).html(id);
+            moves++;
+          }
+        }
+        $("#movecounter").html(moves);
+    });
+  
 </script>
 
 </body>
